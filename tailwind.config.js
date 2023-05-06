@@ -7,7 +7,11 @@ module.exports = {
       center: true,
       padding: "20px",
     },
-    extend: {},
+    extend: {
+      colors: {
+        "biru-terang": "#0e4166",
+      },
+    },
   },
   plugins: [],
 };

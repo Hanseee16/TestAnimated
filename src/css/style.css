@@ -18,9 +18,36 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   box-sizing: border-box;
   display: block;
   background-color: #0e4166;
   background-image: linear-gradient(to bottom, rgba(20, 1, 197, 0.86), #060157);
+}
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
+  background-color: #0e4166;
+  background-image: linear-gradient(to bottom, rgba(20, 1, 197, 0.86), #060157);
+}
+
+/* navbar */
+.navbar {
+  background-color: #0e4166;
+  background-image: linear-gradient(to bottom, rgba(20, 1, 197, 0.86), #0900af);
+}
+/* about */
+.about {
+  background-color: #0e4166;
+  background-image: linear-gradient(to bottom, rgba(20, 1, 197, 0.86), #0900af);
+}
+
+/* footer */
+footer {
+  background-color: #0e4166;
+  background-image: linear-gradient(to bottom, rgba(20, 1, 197, 0.86), #0900af);
 }

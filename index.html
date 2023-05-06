@@ -16,7 +16,7 @@
   </head>
   <body>
     <!-- navbar -->
-    <nav class="bg-[#060157] fixed w-full z-20 top-0 left-0 shadow-md">
+    <nav class="navbar fixed w-full z-20 top-0 left-0 shadow-md">
       <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="https://flowbite.com/" class="flex items-center">
           <span class="self-center text-2xl font-semibold whitespace-nowrap text-yellow-300">Port<span class="text-white">folio</span></span>
@@ -48,10 +48,10 @@
         <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
           <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 dark:border-gray-700">
             <li>
-              <a href="#" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" aria-current="page">Home</a>
+              <a href="#hiro" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" aria-current="page">Home</a>
             </li>
             <li>
-              <a href="#" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-black md:p-0 dark:border-gray-700">About</a>
+              <a href="#about" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-black md:p-0 dark:border-gray-700">About</a>
             </li>
             <li>
               <a
@@ -74,8 +74,7 @@
     <!-- end navbar -->
 
     <!-- test hiro -->
-
-    <section id="hiro">
+    <section id="hiro" class="static mb-[150px]">
       <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice" class="animated">
         <defs>
           <linearGradient id="bg">
@@ -181,23 +180,26 @@
     <!-- end hiro -->
 
     <!-- about -->
-    <!-- <section id="about" class="about bg-gray-100 dark:bg-gray-900 py-36">
-      <div class="container">
-        <div class="text-center mx-auto">
-          <h1 class="text-blue-700 dark:text-white text-3xl font-semibold">About</h1>
-        </div>
-        <div class="flex flex-wrap justify-center gap-10">
-          <div class="rounded-lg py-10 px-5 shadow-lg">
-            <img src="image/tentang/hanseee.jpg" alt="" />
-            <h2>Web Design</h2>
+    <section id="about" class="about relative py-20">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice" class="bg"></svg>
+      <div class="container relative">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
+          <h1 class="mb-4 text-xl font-extrabold tracking-tight leading-none text-yellow-300 md:text-4xl">About</h1>
+          <div class="flex flex-wrap justify-center gap-14">
+            <div class="max-w-md">
+              <img src="src/image/hiro/farhanKamil 1.png" alt="" />
+            </div>
+            <div class="max-w-md">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit consequatur impedit fugiat, rerum pariatur reiciendis aspernatur adipisci consectetur id neque.</p>
+            </div>
           </div>
         </div>
       </div>
-    </section> -->
+    </section>
     <!-- end about -->
 
     <!-- footer -->
-    <!-- <footer class="bg-gray-100 dark:bg-gray-900">
+    <!-- <footer class="relative">
       <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
