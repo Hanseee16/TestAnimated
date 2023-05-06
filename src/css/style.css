@@ -1,0 +1,26 @@
+:root {
+  /* color */
+  --biru: #0e1555;
+  --kuning: #ffd717;
+  --abu-abu: #7b7b7b;
+  --putih: #ffffff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.animated {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  display: block;
+  background-color: #0e4166;
+  background-image: linear-gradient(to bottom, rgba(20, 1, 197, 0.86), #060157);
+}
